@@ -1,23 +1,19 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #2c3e50;
+    background-color: #2d3a3b;
     color: white;
-    padding: 15px;
-}
-
-header h1 {
-    margin: 0;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -31,15 +27,72 @@ nav ul li a {
     text-decoration: none;
 }
 
-.hero {
-    padding: 50px;
-    background: #27ae60;
-    color: white;
+main {
+    padding: 20px;
+}
+
+/* Introduction Section */
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.service h4 {
+    color: #2d3a3b;
+}
+
+.service ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.service ul li {
+    font-size: 1rem;
+}
+
+/* More Info Section */
+.more-info {
+    margin-top: 40px;
+}
+
+.service-overview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.overview-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.overview-item img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
-    background: #34495e;
+    background-color: #2d3a3b;
     color: white;
-    padding: 10px;
+    padding: 10px 0;
+    text-align: center;
     margin-top: 20px;
 }
